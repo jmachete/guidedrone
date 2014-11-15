@@ -15,6 +15,18 @@ exports.stop = function(req, res) {
     res.send(200);
 };
 
+exports.front = function(req, res) {
+    var sec = req.params.seconds;
+    console.log('MOVE FORWARD '+sec+' seconds');
+    res.send(200);
+};
+
+exports.back = function(req, res) {
+    var sec = req.params.seconds;
+    console.log('MOVE BACKWARD '+sec+' seconds');
+    res.send(200);
+};
+
 exports.left = function(req, res) {
     var sec = req.params.seconds;
     console.log('GO LEFT '+sec+' seconds');

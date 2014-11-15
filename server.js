@@ -19,6 +19,8 @@ app.get('/', function(request, response) {
 app.get('/api/v1/takeoff', drone.takeoff);
 app.get('/api/v1/land', drone.land);
 app.get('/api/v1/stop', drone.stop);
+app.get('/api/v1//forward/:seconds', drone.front);
+app.get('/api/v1/backward/:seconds', drone.back);
 app.get('/api/v1/left/:seconds', drone.left);
 app.get('/api/v1/right/:seconds', drone.right);
 app.get('/api/v1/up/:seconds', drone.up);
