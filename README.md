@@ -13,4 +13,5 @@ GUIDE DRONE API
 -	GET http://localhost:5000/api/v1/down/:seconds
 -	GET http://localhost:5000/api/v1/clockwise/:angle
 
-**DRONE GUIDE API***DRONE GUIDE REST API to communicate with the AR Drone 2*
+**DRONE GUIDE API***
+DRONE GUIDE REST API to communicate with the AR Drone 2*
